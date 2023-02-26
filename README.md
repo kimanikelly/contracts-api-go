@@ -1,1 +1,1 @@
-# contracts-api-go
+# contracts-api-py
