@@ -6,8 +6,8 @@ app = Flask(__name__)
 @app.route("/")
 def endpoint_directory():
     return {
-        "token_endpoint": "Request the /token endpoint to return the Addresses, ABI, and Bytecode of Token.sol",
-        "ttBank_endpoint": "Request the /ttBank endpoint to return the Addresses, ABI, and Bytecode of TTBank.sol"
+        "/token": "Request the /token endpoint to return the Addresses, ABI, and Bytecode of Token.sol",
+        "/ttBank": "Request the /ttBank endpoint to return the Addresses, ABI, and Bytecode of TTBank.sol"
     }
 
 
