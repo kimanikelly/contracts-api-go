@@ -1,4 +1,4 @@
-from contract_api import *
+from contract_api_calls import *
 from .utils import *
 
 
